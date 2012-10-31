@@ -1,0 +1,9 @@
+{
+  "name": "timestamp",
+  "version": "0.0.1",
+  "repo": "visionmedia/timestamp.c",
+  "description": "Return a timestamp in milliseconds",
+  "keywords": ["time", "timestamp", "milliseconds"],
+  "license": "MIT",
+  "src": ["timestamp.h"]
+}
