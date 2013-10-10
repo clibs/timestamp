@@ -1,7 +1,7 @@
 {
   "name": "timestamp",
   "version": "0.0.1",
-  "repo": "visionmedia/timestamp.c",
+  "repo": "clibs/timestamp",
   "description": "Return a timestamp in milliseconds",
   "keywords": ["time", "timestamp", "milliseconds"],
   "license": "MIT",
