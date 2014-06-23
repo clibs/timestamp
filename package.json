@@ -5,5 +5,5 @@
   "description": "Return a timestamp in milliseconds",
   "keywords": ["time", "timestamp", "milliseconds"],
   "license": "MIT",
-  "src": ["timestamp.h"]
+  "src": ["timestamp.h", "timestamp.c"]
 }

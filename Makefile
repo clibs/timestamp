@@ -4,10 +4,13 @@ CFLAGS = -std=c99 -Wall -Wextra
 check: test
 	./test
 
-test: test.c
-	$(CC) $< $(CFLAGS) -o $@
+test: test.o timestamp.o
+	$(CC) $^ -o $@
+
+%.o: %.c
+	$(CC) $< -c -o $@ $(CFLAGS)
 
 clean:
-	rm -f test
+	rm -f test *.o
 
 .PHONY: check test
