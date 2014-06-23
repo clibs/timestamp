@@ -13,4 +13,4 @@ test: test.o timestamp.o
 clean:
 	rm -f test *.o
 
-.PHONY: check test
+.PHONY: check clean
