@@ -5,8 +5,8 @@
 // Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
 //
 
-#ifndef TIMESTAMP
-#define TIMESTAMP
+#ifndef TIMESTAMP_H
+#define TIMESTAMP_H 1
 
 #include <stdint.h>
 #include <sys/time.h>
@@ -23,4 +23,4 @@ timestamp() {
   return (int64_t) ((int64_t) tv.tv_sec * 1000 + (int64_t) tv.tv_usec / 1000);
 }
 
-#endif
+#endif // TIMESTAMP_H
