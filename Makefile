@@ -1,6 +1,13 @@
 
-test: clock.c
-	@$(CC) $< -DTEST_CLOCK -std=c99 -o $@
-	@./test
+CFLAGS = -std=c99 -Wall -Wextra
 
-.PHONY: test
+check: test
+	./test
+
+test: test.c
+	$(CC) $< $(CFLAGS) -o $@
+
+clean:
+	rm -f test
+
+.PHONY: check test
