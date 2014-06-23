@@ -9,7 +9,6 @@
 #define TIMESTAMP_H 1
 
 #include <stdint.h>
-#include <sys/time.h>
 
 /*
  * Return a timestamp in milliseconds.

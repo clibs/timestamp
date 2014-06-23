@@ -5,7 +5,7 @@
 // Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
 //
 
-#include <stdint.h>
+#include <stdlib.h>
 #include <sys/time.h>
 #include "timestamp.h"
 
