@@ -1,6 +1,6 @@
 {
   "name": "timestamp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repo": "clibs/timestamp",
   "description": "Return a timestamp in milliseconds",
   "keywords": ["time", "timestamp", "milliseconds"],
